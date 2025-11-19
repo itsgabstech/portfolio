@@ -12,7 +12,6 @@ import * as AOS from 'aos';
 import { AUTH_JWT_SKILLS } from 'src/app/constants/auth-jwt-skills.constant';
 import { EVENT_PLATAFORM_SKILLS } from 'src/app/constants/event-plataform-skills.constant';
 import { JOBS } from 'src/app/constants/jobs.constant';
-import { MOTOVOICE_SKILLS } from 'src/app/constants/motovoice-skills.constant';
 import { MY_SKILLS } from 'src/app/constants/my-skills.constant';
 import { PORTFOLIO_SKILLS } from 'src/app/constants/portfolio-skills.constant';
 import { RESET_PASSWORD_SKILLS } from 'src/app/constants/reset-password-skills.constant';
@@ -22,8 +21,8 @@ interface Job {
   company: string;
   position: string;
   description: string[];
-  duration: string;
-  icon: string;
+  duration?: string;
+  icon?: string;
 }
 
 @Component({
@@ -57,15 +56,14 @@ export class HomeComponent implements OnInit {
   faArrowUpRightFromSquare = faArrowUpRightFromSquare;
   faCodeCommit = faCodeCommit;
   mySkills = MY_SKILLS;
-  skillsMotoVoice = MOTOVOICE_SKILLS;
   skillsAuthJwt = AUTH_JWT_SKILLS;
   skillsPortfolio = PORTFOLIO_SKILLS;
   skillsResetPassword = RESET_PASSWORD_SKILLS;
   skillsEventPlataform = EVENT_PLATAFORM_SKILLS;
   socialMedia = SOCIAL_MEDIA;
-  jobs = JOBS;
+  jobs: Job[] = JOBS as Job[];
 
-  selectedJob: Job = this.jobs[0];
+  selectedJob?: Job;
 
   ngOnInit(): void {
     AOS.init({});
@@ -92,11 +90,14 @@ export class HomeComponent implements OnInit {
   }
 
   changePage(page: number) {
-    this.currentPage = page;
-    // Update selectedJob to the first job of the new page
+    const newPage = Math.max(0, Math.min(page, this.totalPages - 1));
+    this.currentPage = newPage;
+    // Update selectedJob to the first job of the new page (or undefined)
     const currentPaginatedJobs = this.paginatedJobs;
     if (currentPaginatedJobs.length > 0) {
       this.selectedJob = currentPaginatedJobs[0];
+    } else {
+      this.selectedJob = undefined;
     }
   }
 

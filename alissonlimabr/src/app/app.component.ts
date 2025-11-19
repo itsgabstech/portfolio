@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { faBars, faCode, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { GoogleTagManagerService } from 'angular-google-tag-manager';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  
 })
 export class AppComponent implements OnInit {
-  title = 'alissonlimabr';
+  title = 'gabrielavberto';
   faBars = faBars;
   faXmark = faXmark;
   faCode = faCode;

@@ -5,12 +5,7 @@ export const MY_SKILLS = [
     alt: 'Logo do Java',
     aosAnimation: 'zoom-out-up',
   },
-  {
-    name: 'Spring Boot',
-    icon: 'assets/icons/springboot-icon.svg',
-    alt: 'Logo do Spring Boot',
-    aosAnimation: 'zoom-out-down',
-  },
+
   {
     name: 'Typescript',
     icon: 'assets/icons/typescript-icon.svg',
@@ -23,24 +18,9 @@ export const MY_SKILLS = [
     alt: 'Logo do Angular',
     aosAnimation: 'zoom-out-down',
   },
-  {
-    name: 'Nodejs',
-    icon: 'assets/icons/nodejs-icon.svg',
-    alt: 'Logo do Nodejs',
-    aosAnimation: 'zoom-out-up',
-  },
-  {
-    name: 'AWS Cloud',
-    icon: 'assets/icons/aws-icon.svg',
-    alt: 'Logo da AWS Cloud',
-    aosAnimation: 'zoom-out-down',
-  },
-  {
-    name: 'Azure',
-    icon: 'assets/icons/azure-icon.svg',
-    alt: 'Logo do Azure',
-    aosAnimation: 'zoom-out-up',
-  },
+
+
+
   {
     name: 'Docker',
     icon: 'assets/icons/docker-icon.svg',
@@ -59,48 +39,15 @@ export const MY_SKILLS = [
     alt: 'Logo do Figma',
     aosAnimation: 'zoom-out-down',
   },
-  {
-    name: 'Bootstrap',
-    icon: 'assets/icons/bootstrap-icon.svg',
-    alt: 'Logo do Bootstrap',
-    aosAnimation: 'zoom-out-up',
-  },
+
   {
     name: 'Angular Material',
     icon: 'assets/icons/angular-material-icon.svg',
     alt: 'Logo do Angular Material',
     aosAnimation: 'zoom-out-down',
   },
-  {
-    name: 'Tailwind',
-    icon: 'assets/icons/tailwind-icon.svg',
-    alt: 'Logo do Tailwind',
-    aosAnimation: 'zoom-out-up',
-  },
-  {
-    name: 'MySQL',
-    icon: 'assets/icons/mysql-icon.svg',
-    alt: 'Logo do MySQL',
-    aosAnimation: 'zoom-out-down',
-  },
-  {
-    name: 'GraphQL',
-    icon: 'assets/icons/graphql-icon.svg',
-    alt: 'Logo do GraphQL',
-    aosAnimation: 'zoom-out-up',
-  },
-  {
-    name: 'RxJs',
-    icon: 'assets/icons/rxjs-icon.svg',
-    alt: 'Logo do Rxjs',
-    aosAnimation: 'zoom-out-down',
-  },
-  {
-    name: 'Junit',
-    icon: 'assets/icons/junit5-icon.svg',
-    alt: 'Logo do Junit',
-    aosAnimation: 'zoom-out-up',
-  },
+
+
   {
     name: 'Scss',
     icon: 'assets/icons/scss-icon.svg',
