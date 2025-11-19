@@ -1,9 +1,9 @@
 <div align="center">
-<img src="https://github.com/alissonlimabr/portfolio/assets/101370736/0adf873b-f8fc-4d43-99ff-7e7f54da3202">
+<img src="https://github.com/gabrielavberto/portfolio/assets/101370736/0adf873b-f8fc-4d43-99ff-7e7f54da3202">
 
 ###
 
-<img src="https://github.com/alissonlimabr/portfolio/assets/101370736/0d8f69e4-81d6-4b51-9344-e069d80c3227">
+<img src="https://github.com/gabrielavberto/portfolio/assets/101370736/0d8f69e4-81d6-4b51-9344-e069d80c3227">
 </div>
 
 <h1 align="center">Portfólio - Alisson Lima </h1>
@@ -50,14 +50,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨‍🎓 Autor
 
-<a href="https://github.com/alissonlimabr">
+<a href="https://github.com/gabrielavberto">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/101370736?s=400&u=00839cadc5eaa54e04b68f6efbc1582eedf4e080&v=4" width="100px;" alt="Avatar"/>
  <br />
- <sub><b>Alisson Lima</b></sub></a> <a href="https://github.com/alissonlimabr" title="GitHub">🚀</a>
+ <sub><b>Gabriela Berto</b></sub></a> <a href="https://github.com/gabrielavberto" title="GitHub">🚀</a>
  <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-alissonlimadev-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alissonlimadev/)](https://www.linkedin.com/in/alissonlimadev/)
-[![Gmail Badge](https://img.shields.io/badge/-alissonlimabr.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alissonlimabr.dev@gmail.com)](mailto:alissonlimabr.dev@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-gabrielavberto.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielavberto.dev@gmail.com)](mailto:gabrielavberto.dev@gmail.com)
 
 ## 📝 Licença
 

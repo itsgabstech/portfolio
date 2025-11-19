@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "alissonlimabr": {
+    "gabrielavberto": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/alissonlimabr/browser",
+            "outputPath": "dist/gabrielavberto/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -74,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "alissonlimabr:build:production"
+              "browserTarget": "gabrielavberto:build:production"
             },
             "development": {
-              "browserTarget": "alissonlimabr:build:development"
+              "browserTarget": "gabrielavberto:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "alissonlimabr:build"
+            "browserTarget": "gabrielavberto:build"
           }
         },
         "test": {
@@ -112,7 +112,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/alissonlimabr/server",
+            "outputPath": "dist/gabrielavberto/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "inlineStyleLanguage": "scss"
@@ -135,12 +135,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "alissonlimabr:build:development",
-              "serverTarget": "alissonlimabr:server:development"
+              "browserTarget": "gabrielavberto:build:development",
+              "serverTarget": "gabrielavberto:server:development"
             },
             "production": {
-              "browserTarget": "alissonlimabr:build:production",
-              "serverTarget": "alissonlimabr:server:production"
+              "browserTarget": "gabrielavberto:build:production",
+              "serverTarget": "gabrielavberto:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -154,12 +154,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "alissonlimabr:build:production",
-              "serverTarget": "alissonlimabr:server:production"
+              "browserTarget": "gabrielavberto:build:production",
+              "serverTarget": "gabrielavberto:server:production"
             },
             "development": {
-              "browserTarget": "alissonlimabr:build:development",
-              "serverTarget": "alissonlimabr:server:development"
+              "browserTarget": "gabrielavberto:build:development",
+              "serverTarget": "gabrielavberto:server:development"
             }
           },
           "defaultConfiguration": "production"

@@ -7,10 +7,10 @@
     "build-dev": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run alissonlimabr:serve-ssr",
-    "serve:ssr": "node dist/alissonlimabr/server/main.js",
-    "build:ssr": "ng build && ng run alissonlimabr:server",
-    "prerender": "ng run alissonlimabr:prerender",
+    "dev:ssr": "ng run gabrielavberto:serve-ssr",
+    "serve:ssr": "node dist/gabrielavberto/server/main.js",
+    "build:ssr": "ng build && ng run gabrielavberto:server",
+    "prerender": "ng run gabrielavberto:prerender",
     "vercel-build": "npm run build:ssr"
   },
   "private": true,
@@ -34,7 +34,7 @@
     "@tsparticles/angular": "^3.0.0",
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/slim": "^3.3.0",
-    "alissonlimabr": "file:",
+    
     "angular-google-tag-manager": "^1.8.0",
     "aos": "^2.3.4",
     "express": "^4.15.2",
