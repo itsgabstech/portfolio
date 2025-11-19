@@ -2,7 +2,8 @@
   "name": "portfolio-root",
   "private": true,
   "scripts": {
-    "start": "cd gabrielavberto; npm start",
-    "install-client": "cd gabrielavberto; npm install"
+    "start": "cd gabrielavberto && npm start",
+    "install-client": "cd gabrielavberto && npm install",
+    "build": "cd gabrielavberto && npm run vercel-build"
   }
 }
