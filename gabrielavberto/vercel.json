@@ -1,19 +1,10 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "dist/gabrielavberto/server/main.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "dist/gabrielavberto/browser/**",
-      "use": "@vercel/static"
-    }
+    { "src": "dist/gabrielavberto/browser/**", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "dist/gabrielavberto/server/main.js"
-    }
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
