@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "public": false,
-  "name": "gabrielavberto",
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "dist/gabrielavberto/browser/**"
+  "builds": [
+    {
+      "src": "dist/gabrielavberto/server/main.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "dist/gabrielavberto/browser/**",
+      "use": "@vercel/static"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/gabrielavberto/server/main.js"
+    }
+  ]
 }
